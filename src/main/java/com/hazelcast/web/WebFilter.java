@@ -435,4 +435,8 @@ public class WebFilter implements Filter {
             return hzSessionId;
         }
     }
+
+    protected WebFilterConfig getConfig() {
+        return config;
+    }
 }
